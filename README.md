@@ -26,6 +26,9 @@ This project focuses on building an automated system for image processing .The g
 
          
  ![image](https://github.com/Ahmed1337a/Image-Resizing/blob/0cebf31b44c1bb75aeed41b028f6159173f7467d/Images/12.png)
+ 
+ Scroll down and Click "Create subscription
+ After this , you will receive some mail for Subscription Confirmation and you have to confirm that
 
          
  ![image](https://github.com/Ahmed1337a/Image-Resizing/blob/0cebf31b44c1bb75aeed41b028f6159173f7467d/Images/13.png)
@@ -33,5 +36,58 @@ This project focuses on building an automated system for image processing .The g
  
  ![image](https://github.com/Ahmed1337a/Image-Resizing/blob/0cebf31b44c1bb75aeed41b028f6159173f7467d/Images/14.png)
 
+
+
+### Step 3 :
+### Creating IAM ROle :
+
+Navigate to the IAM Console.
+
+Create a policie and attach S3 ,SnS full access and make a role contain that policy 
+
+ ![image](https://github.com/Ahmed1337a/Image-Resizing/blob/ab82f8fc35c323e8fa4fc82671dbf87d66d44cd7/Images/18.png)
+
+ 
+  ![image](https://github.com/Ahmed1337a/Image-Resizing/blob/ab82f8fc35c323e8fa4fc82671dbf87d66d44cd7/Images/4.png)
+
+
+ ### Step 4 :
+### Creating Lambda :
+
+Navigate to the Lambda Console.
+
+ ![image](https://github.com/Ahmed1337a/Image-Resizing/blob/ab82f8fc35c323e8fa4fc82671dbf87d66d44cd7/Images/5.png)
+ 
+Use exsisting IAM Role
+
+ 
+ ![image](https://github.com/Ahmed1337a/Image-Resizing/blob/ab82f8fc35c323e8fa4fc82671dbf87d66d44cd7/Images/6.png)
+ Make Resource S3 as a Trigger
+
+ 
+ ![image](https://github.com/Ahmed1337a/Image-Resizing/blob/ab82f8fc35c323e8fa4fc82671dbf87d66d44cd7/Images/7.png)
+
+ 
+  ![image](https://github.com/Ahmed1337a/Image-Resizing/blob/ab82f8fc35c323e8fa4fc82671dbf87d66d44cd7/Images/8.png)
+
+  Now we have to go to code section , and scroll down to layers
+
+  why we add a layer ?
+  We need a python library called pillow in our code to resize the image . We can manually add Pillow library also, But it's very time consuming and you have to do lot more , Instead of manually adding pillow library we are going to use layers for Some easy action.
+
+  you can copy the arn from below.
+  
+         arn:aws:lambda:ap-south-1:770693421928:layer:Klayers-p39-pillow:1
+
+
+
+   ![image](https://github.com/Ahmed1337a/Image-Resizing/blob/ab82f8fc35c323e8fa4fc82671dbf87d66d44cd7/Images/10.png)
+
+   Now you can replace a code 
+
+
+
+
+ 
 
 
