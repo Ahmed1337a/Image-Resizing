@@ -85,6 +85,30 @@ Use exsisting IAM Role
 
    Now you can replace a code 
 
+   ### Step 5:
+### Upload Image to S3 :
+
+   ![image](https://github.com/Ahmed1337a/Image-Resizing/blob/ab82f8fc35c323e8fa4fc82671dbf87d66d44cd7/Images/9.png)
+
+   
+   ![image](https://github.com/Ahmed1337a/Image-Resizing/blob/ab82f8fc35c323e8fa4fc82671dbf87d66d44cd7/Images/15png)
+
+   Now we can see the image is succefully resized in destination S3
+   
+   ![image](https://github.com/Ahmed1337a/Image-Resizing/blob/ab82f8fc35c323e8fa4fc82671dbf87d66d44cd7/Images/16.png)
+   
+
+   
+   ![image](https://github.com/Ahmed1337a/Image-Resizing/blob/ab82f8fc35c323e8fa4fc82671dbf87d66d44cd7/Images/17png)
+
+   ### It Successfully resized the Image and sends me the Notification.
+
+
+   
+
+
+
+
 
 
 
