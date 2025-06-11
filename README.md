@@ -36,8 +36,6 @@ This project focuses on building an automated system for image processing .The g
  
  ![image](https://github.com/Ahmed1337a/Image-Resizing/blob/0cebf31b44c1bb75aeed41b028f6159173f7467d/Images/14.png)
 
-
-
 ### Step 3 :
 ### Creating IAM ROle :
 
@@ -86,20 +84,20 @@ Use exsisting IAM Role
    Now you can replace a code 
 
    ### Step 5:
-### Upload Image to S3 :
+### Upload Image to Resource S3 :
 
    ![image](https://github.com/Ahmed1337a/Image-Resizing/blob/ab82f8fc35c323e8fa4fc82671dbf87d66d44cd7/Images/9.png)
 
    
-   ![image](https://github.com/Ahmed1337a/Image-Resizing/blob/ab82f8fc35c323e8fa4fc82671dbf87d66d44cd7/Images/15png)
+   ![image](https://github.com/Ahmed1337a/Image-Resizing/blob/361924b3d1d75b382a4f2b48ef92e03b011a3c14/Images/15.png)
 
    Now we can see the image is succefully resized in destination S3
    
-   ![image](https://github.com/Ahmed1337a/Image-Resizing/blob/ab82f8fc35c323e8fa4fc82671dbf87d66d44cd7/Images/16.png)
+   ![image](https://github.com/Ahmed1337a/Image-Resizing/blob/361924b3d1d75b382a4f2b48ef92e03b011a3c14/Images/16.png)
    
 
    
-   ![image](https://github.com/Ahmed1337a/Image-Resizing/blob/ab82f8fc35c323e8fa4fc82671dbf87d66d44cd7/Images/17png)
+   ![image](https://github.com/Ahmed1337a/Image-Resizing/blob/361924b3d1d75b382a4f2b48ef92e03b011a3c14/Images/17.png)
 
    ### It Successfully resized the Image and sends me the Notification.
 
